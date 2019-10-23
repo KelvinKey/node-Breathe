@@ -18,8 +18,8 @@
 
 <body>
     <div class="left-down-box">
-        <div class="price-now" onclick="showbox()"></div>
-        <div class="price-now-text" onclick="showbox()">
+        <div class="price-now" onclick="_clcik()"></div>
+        <div class="price-now-text" onclick="_clcik()">
             <div class="showtext">
                 <i class="fa fa-money"></i>ONE PIECE<i id="upbtn" class="fa fa-angle-up upbtn"></i>
             </div>
@@ -38,7 +38,7 @@
                 <li>身份：草帽海贼船长</li>
             </ul>
             <div class="rate"><em>Date</em>
-                <span class="startdate">24/12/1997</span> - <span class="enddate">连载中</span> (1 Night Price)
+                <span class="startdate">24/12/1997</span> - <span class="enddate">连载中</span>
             </div>
             <div class="terms">Subject to availability, terms and conditions.</div>
             <a href="#" target="_blank" class="verified">
@@ -73,7 +73,7 @@
 </body>
 <script type="text/javascript">
     var opened = false;
-    function showbox() {
+    function _clcik() {
         if (opened) {
             $(".left-down-box").animate({ "bottom": "-230px" });
             $(".price-now").css({ "animation": "popup 1s infinite", "background": "#8e764a" });
