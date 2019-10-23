@@ -1,0 +1,28 @@
+{
+  "name": "breathe-component",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"> Breathe - Component </h1>",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KelvinKey/node-Breathe.git"
+  },
+  "author": [
+    {
+      "name": "kelvinkey",
+      "email": "kelvinkeyss@yahoo.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KelvinKey/node-Breathe/issues"
+  },
+  "homepage": "https://github.com/KelvinKey/node-Breathe#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}

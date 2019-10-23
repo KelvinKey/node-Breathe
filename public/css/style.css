@@ -1,0 +1,306 @@
+
+body {
+    background: url(../image/1.jpeg);
+    background-color: #FFF;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.left-down-box {
+    width: 430px;
+    height: 320px;
+    position: fixed;
+    left: 0px;
+    bottom: -230px;
+}
+.price-now {
+    width: 100%;
+    height: 320px;
+    background: #8e764a;
+    position: absolute;
+    left: -30px;
+    transform: rotate(5deg);
+    animation: popup 1s infinite;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+.price-now-text {
+    width: 100%;
+    color: #FFF;
+    position: absolute;
+    top: 40px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.price-now-text .fa-money {
+    margin-right: 20px;
+}
+.price-now-text .upbtn {
+    margin-left: 80px;
+}
+.top-hide-text {
+    margin-top: 71px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #a0a0a0;
+    position: absolute;
+    top: 25px;
+    padding-left: 20px;
+    padding-right: 32px;
+    border-top: 1px solid #ddd;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+.price-card {
+    width: 430px;
+    right: 0;
+    padding: 40px 0 18px 30px;
+    background: #231f20;
+    color: #fff;
+    position: absolute;
+    top: 183px;
+    font: inherit;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    vertical-align: baseline;
+}
+.price-card .title {
+    font-size: 20px;
+    font-weight: 540;
+    margin: 0;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.price-card .pos {
+    float: right;
+    margin-right: 26px;
+}
+.price-card .pos .dollar, .price-card .pos .new_price {
+    color: #8e764a;
+    box-sizing: inherit;
+}
+.price-card .pos .new_price {
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 60px;
+}
+.price-card .pos .dollar {
+    position: relative;
+    top: -5px;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 300;
+}
+.price-card .pos .old_price {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 18px;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    opacity: 0.7;
+    text-align: right;
+    margin-top: 16px;
+}
+.price-card .list {
+    margin: 15px 0 0 0;
+    /*list-style: none;*/
+    display: block;
+    position: relative;
+    left: -20px;
+}
+.price-card .list li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 16px;
+    margin: 0 0 10px 0;
+    opacity: 0.7;
+}
+.price-card .rate {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 12px;
+    margin: 30px 0 0 0;
+    text-transform: uppercase;
+}
+.price-card .rate em {
+    font-style: normal;
+    opacity: 0.7;
+}
+.price-card .rate span {
+    opacity: 0.4;
+}
+.price-card .terms {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 12px;
+    margin: 10px 0 0 0;
+    opacity: 0.4;
+}
+.price-card .verified {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    color: #fff !important;
+    line-height: 48px !important;
+    display: block !important;
+    text-decoration: none;
+}
+.price-card .verified em {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    opacity: 0.7;
+    margin-left: 4px;
+    margin-top: 8px;
+}
+.left-down-box .shadowbox {
+    position: absolute;
+    top: 457px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
+}
+.left-down-box .ota {
+    background: #e5e3d9;
+    color: #231f20;
+    padding: 20px 30px;
+    padding-bottom: 10px;
+    width: 400px;
+}
+.left-down-box .ota .firstline {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    margin: 0 0 20px 0;
+    opacity: 0.7;
+}
+.left-down-box .ota .secondline {
+    font-weight: bold;
+    font-size: 16px;
+}
+.left-down-box .ota .secondline span {
+    float: right;
+}
+.left-down-box .email {
+    background: #FFF;
+    width: 400px;
+}
+.left-down-box .email p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 30px;
+    line-height: 22px;
+}
+.left-down-box .email .subscribe_email {
+    background: #fff;
+    width: 85%;
+    height: auto;
+    font-size: 18px !important;
+    font-weight: 400;
+    color: #999;
+    margin: -12 0 0 30px;
+    padding: 20px;
+    line-height: 18px;
+    border: 1px solid #ccc;
+    text-transform: none;
+    text-align: left;
+    outline: none;
+}
+.left-down-box .email .terms_acceptance_label {
+    display: block;
+    margin: 15px 30px 0;
+    width: 85%;
+    line-height: 12pt;
+    font-size: 12px;
+    color: #777;
+    cursor: pointer;
+    font-weight: 300;
+}
+.left-down-box .email .terms_acceptance {
+    margin-right: 8px;
+}
+.left-down-box .email .subscribe_btn {
+    background: #8e764a;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin: 15px 0 0 0;
+    padding: 20px 30px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    cursor: pointer;
+    -webkit-animation: btn_highlight 1s ease infinite;
+    animation: btn_highlight 1s ease infinite;
+    transform: translateZ(0);
+    border-color: #ceb47c;
+}
+.left-down-box .email .subscribe_btn:hover {
+    background-color: #ceb47c;
+    color: #fff;
+    border-color: #ceb47c;
+    animation: btn_highlight_2 1s ease;
+}
+.left-down-box .email .subscribe_icon {
+    float: right;
+}
+@keyframes popup {
+    0% {
+        background: #8e764a;
+        margin-top: 0px;
+    }
+    50% {
+        background: #80673b;
+        margin-top: 5px;
+    }
+    100% {
+        background: #8e764a;
+        margin-top: 0px;
+    }
+}
+@-webkit-keyframes btn_highlight {
+    0% {
+        background: #8e764a;
+    }
+    50% {
+        background: #80673b;
+    }
+    100% {
+        background: #8e764a;
+    }
+}
+@keyframes btn_highlight {
+    0% {
+        background: #8e764a;
+    }
+    50% {
+        background: #80673b;
+    }
+    100% {
+        background: #8e764a;
+    }
+}
+@-webkit-keyframes btn_highlight_2 {
+    0% {
+        background: #8e764a;
+    }
+    100% {
+        background: #ceb47c;
+    }
+}
+@keyframes btn_highlight_2 {
+    0% {
+        background: #8e764a;
+    }
+    100% {
+        background: #ceb47c;
+    }
+}
